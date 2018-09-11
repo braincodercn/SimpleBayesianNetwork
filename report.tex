@@ -25,7 +25,7 @@ To empower both data and human knowledge.
 \section{Definitions}
 \subsection{Node}
 \begin{lstlisting}
-  using Attributes = Dict<AttributeName,Value>;
+  using Attributes = Dict<AttributeName, Value>;
   class Node {
     NodeName   node_name;
     Node       parent;
@@ -33,7 +33,14 @@ To empower both data and human knowledge.
     Attributes attributes;
   };
 \end{lstlisting}
-To represent Questions, Persons, Concepts;
+To represent Question, Person, Concept etc;
+\subsection{Edge}
+\begin{lstlisting}
+  class Edge {
+    Node head;
+    Node tail;
+  };
+\end{lstlisting}
 
 \section{Goals}
 \subsection{students' perspective}
