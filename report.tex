@@ -1,6 +1,13 @@
 \documentclass{article}
 
 \usepackage{amsmath}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset { %
+    language=C++,
+    backgroundcolor=\color{black!5}, % set backgroundcolor
+    basicstyle=\footnotesize,% basic font setting
+}
 
 \title{Knowledge Graph Based on Bayesian Network}
 \date{2018-9-8}
@@ -9,12 +16,33 @@
 \begin{document}
 \maketitle
 \newpage
+\tableofcontents
+\newpage
 \pagenumbering{gobble}
 
+\section{Why Bayesian Network}
+To empower both data and human knowledge.
+\section{Definitions}
+\subsection{Node}
+\begin{lstlisting}
+  using Attributes = Dict<AttributeName,Value>;
+  class Node {
+    NodeName   node_name;
+    Node       parent;
+    Nodes      childeren;
+    Attributes attributes;
+  };
+\end{lstlisting}
+To represent Questions, Persons, Concepts;
+
 \section{Goals}
-\subsection{For students}
-Accelate learning speed.
-\subsection{For company}
+\subsection{students' perspective}
+philosophy: Accelate learning speed.
+definition: At Time t1, Student s understands Concept c with a Probality p1, after a fixed period training at platform,
+            at Time t2, Student s understands Concept c with a Probality p2,
+
+details: 
+\subsection{company's perspective}
 \section{Graph Architecture}
 \subsection{baisc definition}
 \subsection{how to add a node}
@@ -29,5 +57,7 @@ Accelate learning speed.
 \section{Parameters: Learning, Hand Coding}
 
 \section{Scalability}
+
+\section{Conclusion}
 
 \end{document}

@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Why Bayesian Network}{}
+\contentsline {section}{\numberline {2}Definitions}{}
+\contentsline {subsection}{\numberline {2.1}Node}{}
+\contentsline {section}{\numberline {3}Goals}{}
+\contentsline {subsection}{\numberline {3.1}students' perspective}{}
+\contentsline {subsection}{\numberline {3.2}company's perspective}{}
+\contentsline {section}{\numberline {4}Graph Architecture}{}
+\contentsline {subsection}{\numberline {4.1}baisc definition}{}
+\contentsline {subsection}{\numberline {4.2}how to add a node}{}
+\contentsline {subsection}{\numberline {4.3}how to delete a node}{}
+\contentsline {subsection}{\numberline {4.4}how to add a parent node}{}
+\contentsline {subsection}{\numberline {4.5}how to add a child node}{}
+\contentsline {section}{\numberline {5}Evaluation, Metrics}{}
+\contentsline {section}{\numberline {6}Inference}{}
+\contentsline {section}{\numberline {7}Parameters: Learning, Hand Coding}{}
+\contentsline {section}{\numberline {8}Scalability}{}
+\contentsline {section}{\numberline {9}Conclusion}{}
